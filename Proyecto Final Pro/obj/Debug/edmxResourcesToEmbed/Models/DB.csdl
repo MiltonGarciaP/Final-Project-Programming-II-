@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SellPointModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Entidade">
+    <Key>
+      <PropertyRef Name="IdEntidad" />
+    </Key>
+    <Property Name="IdEntidad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="120" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Localidad" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TipoEntidad" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="TipoDocumento" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="NumeroDocumento" Type="Int64" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="urlPaginaWeb" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="urlFacebook" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="urlInstagram" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="urlTwitter" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="urlTiktok" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="IdGrupoEntidad" Type="Int32" />
+    <Property Name="IdTipoEntidad" Type="Int32" />
+    <Property Name="LimiteCredito" Type="Int32" />
+    <Property Name="UserNameEntidad" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PassworEntidad" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RollUserEntidad" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Comentario" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Noeliminable" Type="Boolean" />
+    <Property Name="FechaRegistro" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="GruposEntidade" Relationship="Self.GrupoE_E" FromRole="Entidades" ToRole="GruposEntidades" />
+    <NavigationProperty Name="TiposEntidade" Relationship="Self.TipoE_E" FromRole="Entidades" ToRole="TiposEntidades" />
+  </EntityType>
+  <EntityType Name="GruposEntidade">
+    <Key>
+      <PropertyRef Name="IdGrupoEntidad" />
+    </Key>
+    <Property Name="IdGrupoEntidad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="120" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Comentario" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Noeliminable" Type="Boolean" />
+    <Property Name="FechaRegistro" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Entidades" Relationship="Self.GrupoE_E" FromRole="GruposEntidades" ToRole="Entidades" />
+    <NavigationProperty Name="TiposEntidades" Relationship="Self.GrupoE_TipoE" FromRole="GruposEntidades" ToRole="TiposEntidades" />
+  </EntityType>
+  <EntityType Name="TiposEntidade">
+    <Key>
+      <PropertyRef Name="IdTipoEntidad" />
+    </Key>
+    <Property Name="IdTipoEntidad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="120" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdGrupoEntidad" Type="Int32" />
+    <Property Name="Comentario" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Noeliminable" Type="Boolean" />
+    <Property Name="FechaRegistro" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Entidades" Relationship="Self.TipoE_E" FromRole="TiposEntidades" ToRole="Entidades" />
+    <NavigationProperty Name="GruposEntidade" Relationship="Self.GrupoE_TipoE" FromRole="TiposEntidades" ToRole="GruposEntidades" />
+  </EntityType>
+  <Association Name="GrupoE_E">
+    <End Role="GruposEntidades" Type="Self.GruposEntidade" Multiplicity="0..1" />
+    <End Role="Entidades" Type="Self.Entidade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GruposEntidades">
+        <PropertyRef Name="IdGrupoEntidad" />
+      </Principal>
+      <Dependent Role="Entidades">
+        <PropertyRef Name="IdGrupoEntidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TipoE_E">
+    <End Role="TiposEntidades" Type="Self.TiposEntidade" Multiplicity="0..1" />
+    <End Role="Entidades" Type="Self.Entidade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TiposEntidades">
+        <PropertyRef Name="IdTipoEntidad" />
+      </Principal>
+      <Dependent Role="Entidades">
+        <PropertyRef Name="IdTipoEntidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GrupoE_TipoE">
+    <End Role="GruposEntidades" Type="Self.GruposEntidade" Multiplicity="0..1" />
+    <End Role="TiposEntidades" Type="Self.TiposEntidade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GruposEntidades">
+        <PropertyRef Name="IdGrupoEntidad" />
+      </Principal>
+      <Dependent Role="TiposEntidades">
+        <PropertyRef Name="IdGrupoEntidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SellPointEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Entidades" EntityType="Self.Entidade" />
+    <EntitySet Name="GruposEntidades" EntityType="Self.GruposEntidade" />
+    <EntitySet Name="TiposEntidades" EntityType="Self.TiposEntidade" />
+    <AssociationSet Name="GrupoE_E" Association="Self.GrupoE_E">
+      <End Role="GruposEntidades" EntitySet="GruposEntidades" />
+      <End Role="Entidades" EntitySet="Entidades" />
+    </AssociationSet>
+    <AssociationSet Name="TipoE_E" Association="Self.TipoE_E">
+      <End Role="TiposEntidades" EntitySet="TiposEntidades" />
+      <End Role="Entidades" EntitySet="Entidades" />
+    </AssociationSet>
+    <AssociationSet Name="GrupoE_TipoE" Association="Self.GrupoE_TipoE">
+      <End Role="GruposEntidades" EntitySet="GruposEntidades" />
+      <End Role="TiposEntidades" EntitySet="TiposEntidades" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

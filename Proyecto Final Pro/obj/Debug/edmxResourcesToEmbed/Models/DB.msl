@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SellPointModelStoreContainer" CdmEntityContainer="SellPointEntities">
+    <EntitySetMapping Name="Entidades">
+      <EntityTypeMapping TypeName="SellPointModel.Entidade">
+        <MappingFragment StoreEntitySet="Entidades">
+          <ScalarProperty Name="IdEntidad" ColumnName="IdEntidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Localidad" ColumnName="Localidad" />
+          <ScalarProperty Name="TipoEntidad" ColumnName="TipoEntidad" />
+          <ScalarProperty Name="TipoDocumento" ColumnName="TipoDocumento" />
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="urlPaginaWeb" ColumnName="urlPaginaWeb" />
+          <ScalarProperty Name="urlFacebook" ColumnName="urlFacebook" />
+          <ScalarProperty Name="urlInstagram" ColumnName="urlInstagram" />
+          <ScalarProperty Name="urlTwitter" ColumnName="urlTwitter" />
+          <ScalarProperty Name="urlTiktok" ColumnName="urlTiktok" />
+          <ScalarProperty Name="IdGrupoEntidad" ColumnName="IdGrupoEntidad" />
+          <ScalarProperty Name="IdTipoEntidad" ColumnName="IdTipoEntidad" />
+          <ScalarProperty Name="LimiteCredito" ColumnName="LimiteCredito" />
+          <ScalarProperty Name="UserNameEntidad" ColumnName="UserNameEntidad" />
+          <ScalarProperty Name="PassworEntidad" ColumnName="PassworEntidad" />
+          <ScalarProperty Name="RollUserEntidad" ColumnName="RollUserEntidad" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Noeliminable" ColumnName="Noeliminable" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GruposEntidades">
+      <EntityTypeMapping TypeName="SellPointModel.GruposEntidade">
+        <MappingFragment StoreEntitySet="GruposEntidades">
+          <ScalarProperty Name="IdGrupoEntidad" ColumnName="IdGrupoEntidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Noeliminable" ColumnName="Noeliminable" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TiposEntidades">
+      <EntityTypeMapping TypeName="SellPointModel.TiposEntidade">
+        <MappingFragment StoreEntitySet="TiposEntidades">
+          <ScalarProperty Name="IdTipoEntidad" ColumnName="IdTipoEntidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdGrupoEntidad" ColumnName="IdGrupoEntidad" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Noeliminable" ColumnName="Noeliminable" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,42 @@
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\Proyecto Final Pro.exe.config
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\Proyecto Final Pro.exe
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\Proyecto Final Pro.pdb
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.csproj.AssemblyReference.cache
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Form1.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Properties.Resources.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Splash_Screen.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.csproj.GenerateResource.cache
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.csproj.CoreCompileInputs.cache
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.exe
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.pdb
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.VenPrin.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.GrupoEntidades.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Entidad.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.TipoEntidad.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.VenLog.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.AcercaDe.resources
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\EntityFramework.dll
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\EntityFramework.xml
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.csproj.CopyComplete
+C:\Users\samee\source\repos\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Inicio.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\Proyecto Final Pro.exe.config
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\Proyecto Final Pro.exe
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\Proyecto Final Pro.pdb
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.AcercaDe.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Entidad.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.GrupoEntidades.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Inicio.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Form1.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Properties.Resources.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.Splash_Screen.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.TipoEntidad.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.VenLog.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto_Final_Pro.VenPrin.resources
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.csproj.CopyComplete
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.exe
+C:\Users\DELL\Desktop\Archivos de milton\ITLA\Trabajos de cuatrimestres anteriores\Cuatrimestres\4.Cuarto Cuatrimestre\Programacion II\Practica Final\Proyecto Final Pro\Proyecto Final Pro\obj\Debug\Proyecto Final Pro.pdb
